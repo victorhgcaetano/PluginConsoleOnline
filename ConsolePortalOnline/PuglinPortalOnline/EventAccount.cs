@@ -21,14 +21,7 @@ namespace PuglinPortalOnline
 
             try
             {
-                //if (conviteEvento.Contains("parentaccountid"))
-               // {
-                    UpdateAccount(context, service, conviteEvento);
-                //}
-                //else
-                //{
-                //    throw new InvalidPluginExecutionException($"Por favor preencha a conta da oportunidade");
-                //}
+                UpdateAccount(context, service, conviteEvento);
             }
             catch (Exception ex)
             {
