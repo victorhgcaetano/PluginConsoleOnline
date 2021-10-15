@@ -28,7 +28,7 @@ namespace PuglinPortalOnline
                 }
                 else
                 {
-                    throw new InvalidPluginExecutionException($"Por favor preencha a conta da oportunidade");
+                    throw new InvalidPluginExecutionException($"Por favor preencha os dados do evento");
                 }
             }
             catch (Exception ex)
